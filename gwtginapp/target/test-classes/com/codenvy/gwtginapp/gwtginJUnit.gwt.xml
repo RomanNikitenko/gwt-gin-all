@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+  <!-- Inherit our applications main module.                      -->
+  <inherits name='com.codenvy.gwtginapp.gwtgin' />
+
+  <!-- Specify the path to any remote services.                   -->
+  <servlet path="/gwtgin/greet" class="com.codenvy.gwtginapp.server.GreetingServiceImpl" />
+
+</module>

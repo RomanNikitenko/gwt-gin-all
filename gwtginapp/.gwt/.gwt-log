@@ -1,0 +1,140 @@
+Public resources found in...
+Translatable source found in...
+Found 0 cached/archived units.  Used 0 / 2825 units from cache.
+Compiling...
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   40% complete (ETR: 7 seconds)
+   50% complete (ETR: 6 seconds)
+   60% complete (ETR: 4 seconds)
+   70% complete (ETR: 3 seconds)
+   80% complete (ETR: 2 seconds)
+   90% complete (ETR: 1 seconds)
+   100% complete (ETR: 0 seconds)
+   Compilation completed in 12,64 seconds
+Validating units:
+   [ERROR] Errors in 'jar:file:/home/roman/.m2/repository/com/google/gwt/gwt-user/2.6.0-rc3/gwt-user-2.6.0-rc3.jar!/com/google/gwt/core/client/impl/OnSuccessExecutor.java'
+      [ERROR] Line 34: The method executeOnSuccess0(RunAsyncCallback) is undefined for the type AsyncFragmentLoader
+   [ERROR] Errors in 'jar:file:/home/roman/.m2/repository/com/google/gwt/gwt-user/2.6.0-rc3/gwt-user-2.6.0-rc3.jar!/com/google/gwt/core/client/impl/SynchronousOnSuccessExecutor.java'
+      [ERROR] Line 29: The method executeOnSuccess0(RunAsyncCallback) is undefined for the type AsyncFragmentLoader
+   [ERROR] Errors in 'jar:file:/home/roman/.m2/repository/com/google/gwt/gwt-user/2.6.0-rc3/gwt-user-2.6.0-rc3.jar!/com/google/gwt/core/client/impl/UnloadSupport.java'
+      [ERROR] Line 44: Referencing method 'com.google.gwt.core.client.impl.Impl.dispose(Lcom/google/gwt/core/client/impl/Disposable;)': unable to resolve method
+   [ERROR] Errors in 'jar:file:/home/roman/.m2/repository/com/google/gwt/gwt-user/2.6.0-rc3/gwt-user-2.6.0-rc3.jar!/com/google/gwt/core/client/impl/UnloadSupportEnabled.java'
+      [ERROR] Line 71: Referencing method 'com.google.gwt.core.client.GWT.unloadModule()': unable to resolve method
+      [ERROR] Line 108: The method isModuleUnloaded() is undefined for the type Impl
+      [ERROR] Line 136: The method reportUncaughtException(Throwable) is undefined for the type GWT
+      [ERROR] Line 154: The method isModuleUnloaded() is undefined for the type Impl
+   [ERROR] Errors in 'jar:file:/home/roman/.m2/repository/com/google/gwt/gwt-user/2.6.0-rc3/gwt-user-2.6.0-rc3.jar!/com/google/gwt/core/translatable/com/google/gwt/core/shared/impl/ThrowableTypeResolver.java'
+      [ERROR] Line 31: The method isClassMetadataEnabled() from the type Class is not visible
+   [ERROR] Errors in 'jar:file:/home/roman/.m2/repository/com/google/gwt/gwt-user/2.6.0-rc3/gwt-user-2.6.0-rc3.jar!/com/google/gwt/event/dom/client/LoadedMetadataEvent.java'
+      [ERROR] Line 37: BrowserEvents.LOADEDMETADATA cannot be resolved
+Removing invalidated units
+Finding entry point classes
+Rebinding com.google.gwt.i18n.client.impl.LocaleInfoImpl
+   Invoking generator com.google.gwt.i18n.rebind.LocaleInfoGenerator
+      Processing interface com.google.gwt.i18n.client.constants.NumberConstantsImpl
+         Generating method body for notANumber()
+         Generating method body for currencyPattern()
+         Generating method body for decimalPattern()
+         Generating method body for decimalSeparator()
+         Generating method body for defCurrencyCode()
+         Generating method body for exponentialSymbol()
+         Generating method body for globalCurrencyPattern()
+         Generating method body for groupingSeparator()
+         Generating method body for infinity()
+         Generating method body for minusSign()
+         Generating method body for monetaryGroupingSeparator()
+         Generating method body for monetarySeparator()
+         Generating method body for percent()
+         Generating method body for percentPattern()
+         Generating method body for perMill()
+         Generating method body for plusSign()
+         Generating method body for scientificPattern()
+         Generating method body for simpleCurrencyPattern()
+         Generating method body for zeroDigit()
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.codenvy.gwtginapp.client.table.TableViewImpl.TableBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.codenvy.gwtginapp.client.table.TableViewImpl_TableBinderImpl_designTime1391006284661_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.codenvy.gwtginapp.client.dataresources.DataResources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method imgJava
+         Adding image 'com.codenvy.gwtginapp.client.dataresources.DataResources.imgJava'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.CellTable.Resources
+   Invoking generator com.google.gwt.resources.rebind.context.InlineClientBundleGenerator
+      Preparing method cellTableFooterBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableFooterBackground'
+      Preparing method cellTableHeaderBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableHeaderBackground'
+      Preparing method cellTableLoading
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableLoading'
+      Preparing method cellTableSelectedBackground
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSelectedBackground'
+      Preparing method cellTableSortAscending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortAscending'
+      Preparing method cellTableSortDescending
+         Adding image 'com.google.gwt.user.cellview.client.CellTable.Resources.cellTableSortDescending'
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,03 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.client.ui.impl.ClippedImageImpl.Template
+         Generating method body for image()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.google.gwt.user.cellview.client.AbstractCellTable.Template
+   Invoking generator com.google.gwt.safehtml.rebind.SafeHtmlTemplatesGenerator
+      Constructing interface com.google.gwt.user.cellview.client.AbstractCellTable.Template
+         Generating method body for div()
+         Generating method body for tbody()
+         Generating method body for td()
+         Generating method body for tdBothAlign()
+         Generating method body for tdHorizontalAlign()
+         Generating method body for tdVerticalAlign()
+         Generating method body for tfoot()
+         Generating method body for thead()
+         Generating method body for tr()
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.codenvy.gwtginapp.client.table.TableViewImpl.TableBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.codenvy.gwtginapp.client.table.TableViewImpl_TableBinderImpl_designTime1391006287642_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
+Rebinding com.codenvy.gwtginapp.client.table.TableViewImpl.TableBinder
+   Adding '3' new generated units
+      Compiling...
+         Compilation completed in 0,02 seconds
+      Removing invalidated units
+Rebinding com.codenvy.gwtginapp.client.table.TableViewImpl_TableBinderImpl_designTime1391006321727_GenBundle
+   Adding '1' new generated units
+      Compiling...
+         Compilation completed in 0,01 seconds
+      Removing invalidated units
